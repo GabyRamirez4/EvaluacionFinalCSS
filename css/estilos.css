@@ -1,3 +1,10 @@
 body{
   background-color: #02010a;
 }
+#cabecera{
+  background-color: #5b7989;
+  text-align: left;
+  color: white;
+  -webkit-border-radius: top 10px;
+  border-radius: top 10px;
+}
