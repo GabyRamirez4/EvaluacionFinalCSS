@@ -5,6 +5,5 @@ body{
   background-color: #5b7989;
   text-align: left;
   color: white;
-  -webkit-border-radius: top 10px;
-  border-radius: top 10px;
+  text-shadow: 2px 2px 2px #02010a;
 }
