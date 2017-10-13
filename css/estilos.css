@@ -8,4 +8,10 @@ body{
   text-shadow: 2px 2px 2px #02010a;
   border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
+
+}
+#cabecera a{
+  color: white;
+  text-align: right;
+  -webkit-text-align: right;
 }
