@@ -5,14 +5,16 @@ body{
 }
 #cabecera{
   background-color: #5b7989;
-
+  float: left;
   color: white;
   text-shadow: 2px 2px 2px #02010a;
   border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
+  width: 100%;
 }
-#cabecera a{
+#cabecera .menu a{
   color: white;
   text-decoration: none;
-
+  padding: 5px;
+  float: right;
 }
