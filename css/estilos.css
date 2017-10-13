@@ -1,5 +1,7 @@
 body{
   background-color: #02010a;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 #cabecera{
   background-color: #5b7989;
@@ -13,5 +15,5 @@ body{
 #cabecera a{
   color: white;
   text-align: right;
-  -webkit-text-align: right;
+
 }
