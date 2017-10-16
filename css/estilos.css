@@ -12,9 +12,8 @@ body{
   -webkit-border-radius: 10px 10px 0px 0px;
   width: 100%;
 }
-#cabecera .menu a{
+#cabecera a{
   color: white;
   text-decoration: none;
-  padding: 5px;
   float: right;
 }
