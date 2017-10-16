@@ -25,7 +25,13 @@ a{
 #imagenCentral{
   background-color: #82c3a6;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  
+
+}
+img{
+  margin-top: auto;
+  box-shadow: 2px 2px;
+  color: #02010a;
+  margin: 20px;
 }
