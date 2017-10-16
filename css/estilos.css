@@ -3,17 +3,29 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Dancing Script', cursive;
 }
+
+
 #cabecera{
   background-color: #5b7989;
-  float: left;
   color: white;
   text-shadow: 2px 2px 2px #02010a;
   border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
-#cabecera a{
+a{
   color: white;
   text-decoration: none;
-  float: right;
+
+}
+
+#imagenCentral{
+  background-color: #82c3a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
