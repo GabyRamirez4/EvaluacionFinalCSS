@@ -35,3 +35,19 @@ img{
   color: #02010a;
   margin: 20px;
 }
+
+.contenedor{
+  align-items: center;
+}
+
+@media screen (max-width:900px) {
+  .contenedor{
+    width: 900px;
+  }
+}
+
+@media screen (min-Width:900px) {
+  .contenedor{
+    width: 100%;
+  }
+}
