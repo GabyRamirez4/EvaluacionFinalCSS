@@ -16,7 +16,7 @@ body{
   align-items: center;
 
 }
-a{
+#cabecera a{
   color: white;
   text-decoration: none;
 
@@ -30,14 +30,14 @@ a{
 
 }
 img{
-  margin-top: auto;
+
   box-shadow: 2px 2px;
   color: #02010a;
   margin: 20px;
 }
 
 .contenedor{
-  align-items: center;
+  justify-content: center;
 }
 
 @media screen (max-width:900px) {
@@ -57,4 +57,17 @@ img{
   display: flex;
   flex-grow: column wrap;
   justify-content: space-around;
+}
+
+
+#imagen1 img a:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px;
+  color: #82c3a6;
+  margin: 20px;
+}
+
+#imagen2 img a{
+  color: black;
+
 }
