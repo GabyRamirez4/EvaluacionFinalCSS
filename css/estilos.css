@@ -55,6 +55,6 @@ img{
 #imagenSecundaria{
   background-color: #d5c75f;
   display: flex;
+  flex-grow: column wrap;
   justify-content: space-around;
-  align-items: center;
 }
