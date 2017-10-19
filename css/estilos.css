@@ -75,7 +75,17 @@ img{
   color: black;
 }
 
-#imagen2 img {
+#imagen2 img{
+  margin: 20px;
+  transition-duration: 1s;
+}
 
+#imagen2 img:hover{
+  transform: translate3d(20px, 5px, 0px);
+  color: #82c3a6;
+  box-shadow: 2px 2px;
+}
 
+#imagen2 a{
+  color: black;
 }
