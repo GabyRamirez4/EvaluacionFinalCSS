@@ -60,14 +60,22 @@ img{
 }
 
 
-#imagen1 img a:hover{
-  transform: rotate(10deg);
-  box-shadow: 2px 2px;
-  color: #82c3a6;
+#imagen1 img{
   margin: 20px;
+  transition-duration: 1s;
 }
 
-#imagen2 img a{
+#imagen1 img:hover{
+  transform: rotate(10deg);
+  color: #82c3a6;
+  box-shadow: 2px 2px;
+}
+
+#imagen1 a{
   color: black;
+}
+
+#imagen2 img {
+
 
 }
