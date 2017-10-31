@@ -55,14 +55,22 @@ img{
 #imagenSecundaria{
   background-color: #d5c75f;
   display: flex;
-  flex-grow: column wrap;
+  flex-grow: row wrap;
   justify-content: space-around;
 }
 
-
+#imagen1{
+  display: flex;
+  flex-direction: column;
+}
+#imagen2{
+  display: flex;
+  flex-direction: column;
+}
 #imagen1 img{
   margin: 20px;
   transition-duration: 1s;
+  align-self: center;
 }
 
 #imagen1 img:hover{
@@ -73,11 +81,15 @@ img{
 
 #imagen1 a{
   color: black;
+
 }
 
 #imagen2 img{
   margin: 20px;
   transition-duration: 1s;
+  align-self: center;
+  width: 60%;
+  height: 65%;
 }
 
 #imagen2 img:hover{
@@ -88,4 +100,10 @@ img{
 
 #imagen2 a{
   color: black;
+  justify-content: center;
+}
+@media all and (max-width:500px) {
+  #imagenSecundaria{
+    flex-direction: column;
+  }
 }
