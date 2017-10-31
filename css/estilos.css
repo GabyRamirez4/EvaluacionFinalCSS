@@ -62,10 +62,12 @@ img{
 #imagen1{
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 #imagen2{
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 #imagen1 img{
   margin: 20px;
@@ -88,7 +90,7 @@ img{
   margin: 20px;
   transition-duration: 1s;
   align-self: center;
-  width: 60%;
+  width: 65%;
   height: 65%;
 }
 
@@ -100,7 +102,7 @@ img{
 
 #imagen2 a{
   color: black;
-  justify-content: center;
+
 }
 @media all and (max-width:500px) {
   #imagenSecundaria{
